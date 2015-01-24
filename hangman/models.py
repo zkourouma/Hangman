@@ -127,8 +127,8 @@ class HumanPlayer(Player):
         if new_guess in opponent.guessed_list():
             print "You already guessed %s" % new_guess
             return True
-        confirm = raw_input("Is '%s' in your word? (y/n): " % new_guess)
 
+        confirm = raw_input("Is '%s' in your word? (y/n): " % new_guess)
         if confirm.lower() == 'y':
             places = raw_input("Which places? (comma separated, starting at 1. e.g. '1,3,4': ")
             places = [int(i) for i in places.split(',')]
