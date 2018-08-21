@@ -1,6 +1,6 @@
-## Hangman
+# Hangman
 
 Classic word puzzle game for two players.
 
-### Technologies used  
--Python
+## Technologies used  
+- Python
