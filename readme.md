@@ -2,5 +2,5 @@
 
 Classic word puzzle game for two players.
 
-###Technologies used
+### Technologies used  
 -Python
